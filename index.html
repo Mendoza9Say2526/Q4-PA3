@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q4-PA3</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Library Section Checker</h2>
+        <div class="input-area">
+            <label for="sectionInput">
+                Enter a Section:
+            </label>
+            <input type="text" id="sectionInput" class="form-control" placeholder="Enter F, N, R">
+        </div>
+
+        <p id="result">
+            You're Checking the Fiction Section
+        </p>
+
+        <div class="buttons">
+            <button onclick="displaySection()">Check</button>
+            <button onclick="refreshPage()">Refresh</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
